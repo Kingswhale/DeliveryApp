@@ -18,6 +18,7 @@
     <string name="error_incorrect_password">This password is incorrect</string>
     <string name="error_field_required">This field is required</string>
     <string name="title_activity_sign_up">Sign up</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
 
     <!--General string-->
     <string name="add_report">Add Report</string>
@@ -38,6 +39,8 @@
     <string name="delete">Delete</string>
     <string name="title_activity_home">Home</string>
 
+    <string name="naira_symbol">&#x20A6;</string>
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
@@ -46,4 +49,17 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="terms_and_condition">By signing up, you agree to the Terms of Service &amp; Privacy Policy</string>
+    <string name="login_email">Log in with email</string>
+
+    <string name="facebook_app_id">189715304982448</string>
+    <string name="sign_up">sign up</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="sign_up_text">Enter a valid email and password to create an account</string>
+    <string name="sign_up_email">Sign up with email</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="account_upgrade">What do you want? Set your preferences by upgrading your account</string>
 </resources>

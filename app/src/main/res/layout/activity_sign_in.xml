@@ -1,23 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:app="http://schemas.android.com/apk/res-auto"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:background="@drawable/background"
-tools:context="ng.nhub.deliveryapp.Activity.SignIn">
-
-<Button
-    android:id="@+id/btnSignIn"
-    android:text="Sign In"
-    style="@style/Button.Select"
-    android:textColor="@android:color/holo_blue_bright"
-    android:layout_marginRight="8dp"
-    android:layout_marginLeft="8dp"
-    android:layout_alignParentBottom="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_margin="8dp"
-    android:shadowColor="@color/colorPrimaryDark"
-    />
+    android:layout_height="match_parent"
+    android:background="@drawable/btn"
+    tools:context="ng.nhub.deliveryapp.Activity.activity.SignIn">
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/cardview_fbLogin"
+        android:layout_margin="8dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/login_btn"
+        android:text="@string/login_email"
+        android:textColor="@android:color/black" />
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview_fbLogin"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_above="@id/btn_back"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="#3b5998"
+        app:cardCornerRadius="25dp">
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/btn_facebook"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:paddingBottom="25dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingStart="30dp"
+            android:background="@null"
+            android:paddingEnd="30dp"
+            android:paddingTop="25dp"
+            android:textSize="16sp" />
+
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@null"
+        android:text="@string/btn_back"
+        android:textColor="@android:color/white" />
+
 </RelativeLayout>

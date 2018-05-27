@@ -1,4 +1,4 @@
-package ng.nhub.deliveryapp.Activity;
+package ng.nhub.deliveryapp.Activity.activity;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
